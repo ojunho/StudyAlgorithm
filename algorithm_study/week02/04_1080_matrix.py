@@ -1,7 +1,8 @@
 import sys
 input = sys.stdin.readline
 
-def change(arr, a, b):
+# 배열 arr, 인덱스(a,b)를 입력받아서 a,b 위치에서부터 3X3 만큼 다 뒤집어주는함수.
+def change(arr, a, b): 
     for i in range(3):
         for j in range(3):
             if arr[a+i][b+j] == 0:
