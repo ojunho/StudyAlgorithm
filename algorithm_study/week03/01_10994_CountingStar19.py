@@ -1,6 +1,6 @@
 
 def fillStar(arr, n, x, y):
-
+    # 재귀함수 종결문
     if n == 1:
         arr[y][x] = '*'
         return
